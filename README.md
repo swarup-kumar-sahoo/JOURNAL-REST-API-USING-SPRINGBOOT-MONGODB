@@ -81,14 +81,15 @@ The **Journal Application** is a RESTful API built using Java, Spring Boot, and 
 - **GET** `localhost:8080/journal/id/676e855d6a83b91f4dc75294`  
   **Response:**
   ```json
-  [
-    {
-      "id": ObjectId("676e855d6a83b91f4dc75294"),
-      "title": "Ajay",
-      "content": "Frontend developer.",
-      "timestamp": "2024-12-27T10:15:30"
-    }
-  ]
+  {
+    "id": {
+        "timestamp": 1735296349,
+        "date": "2024-12-27T10:45:49.000+00:00"
+    },
+    "title": "Ajay",
+    "content": "Frontend developer",
+    "date": "2024-12-27T16:15:49.813"
+}
   ```
 
 - **POST** `localhost:8080/journal/id/676e855d6a83b91f4dc75294`  
@@ -109,7 +110,6 @@ The **Journal Application** is a RESTful API built using Java, Spring Boot, and 
     "title": "Ajay",
     "content": "Frontend developer",
     "date": "2024-12-27T16:15:49.813"
-    }
   }
   ```
 
