@@ -88,9 +88,9 @@ The **Journal Application** is a RESTful API built using Java, Spring Boot, and 
     },
     "title": "Ajay",
     "content": "Frontend developer",
-    "date": "2024-12-27T16:15:49.813"
-}
-  ```
+    "date": "2024-12-27T16:15:49.813" }
+
+
 
 - **POST** `localhost:8080/journal/id/676e855d6a83b91f4dc75294`  
   **Request Body:**
